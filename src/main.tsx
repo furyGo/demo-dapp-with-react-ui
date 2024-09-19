@@ -7,6 +7,7 @@ import {render} from 'react-dom';
 import App from './App'
 import './index.scss'
 import {runSingleInstance} from "./utils/run-signle-instance";
+import VConsole from 'vconsole';
 
 eruda.init();
 

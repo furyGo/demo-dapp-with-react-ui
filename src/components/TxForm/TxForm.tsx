@@ -13,14 +13,23 @@ const defaultTx: SendTransactionRequest = {
 
     {
       // The receiver's address.
-      address: 'EQCKWpx7cNMpvmcN5ObM5lLUZHZRFKqYA4xmw9jOry0ZsF9M',
+      address: 'UQA2S8L_e1U0lwdtZhdaQvQ_kuLP9Q1Lg4zq8b_bdy4_B3ZO',
       // Amount to send in nanoTON. For example, 0.005 TON is 5000000 nanoTON.
       amount: '5000000',
       // (optional) State initialization in boc base64 format.
-      stateInit: 'te6cckEBBAEAOgACATQCAQAAART/APSkE/S88sgLAwBI0wHQ0wMBcbCRW+D6QDBwgBDIywVYzxYh+gLLagHPFsmAQPsAlxCarA==',
+      // stateInit: 'te6cckEBBAEAOgACATQCAQAAART/APSkE/S88sgLAwBI0wHQ0wMBcbCRW+D6QDBwgBDIywVYzxYh+gLLagHPFsmAQPsAlxCarA==',
       // (optional) Payload in boc base64 format.
-      payload: 'te6ccsEBAQEADAAMABQAAAAASGVsbG8hCaTc/g==',
-    },
+      // payload: 'te6ccsEBAQEADAAMABQAAAAASGVsbG8hCaTc/g==',
+    },{
+      // The receiver's address.
+      address: 'UQArbUbUr6SdZmAQ3b_GeMLyi_25DhlXFKJGPeH-_lEksAst',
+      // Amount to send in nanoTON. For example, 0.005 TON is 5000000 nanoTON.
+      amount: '5000000',
+      // (optional) State initialization in boc base64 format.
+      // stateInit: 'te6cckEBBAEAOgACATQCAQAAART/APSkE/S88sgLAwBI0wHQ0wMBcbCRW+D6QDBwgBDIywVYzxYh+gLLagHPFsmAQPsAlxCarA==',
+      // (optional) Payload in boc base64 format.
+      // payload: 'te6ccsEBAQEADAAMABQAAAAASGVsbG8hCaTc/g==',
+    }
 
     // Uncomment the following message to send two messages in one transaction.
     /*
